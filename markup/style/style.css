@@ -9,15 +9,12 @@ main {
 .menu {
     background: gray;
     margin: 0 auto;
-    width: 100%;  
-    
+    width: 100%;   
 }
 
 .menu a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
-
 }
 
 .menu li {
@@ -25,15 +22,12 @@ main {
     padding: 10px;
     position: relative;
     transition: color 0.8s;
-    
-
 }
 
 .menu li:hover {
     
-    background: aqua;
-    padding: 10px;  
-    
+    background: rgb(144, 147, 147);
+    padding: 10px;    
 }
 
 .menu li:hover >.drop {
@@ -49,8 +43,7 @@ main {
     list-style: none;
     margin: 0;
     width: 120px;
-    display: none;
-   
+    display: none;  
 }
 
 .drop .drop {
